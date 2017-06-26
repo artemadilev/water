@@ -1,0 +1,548 @@
+/* Подключение внешних шрифтов */
+@font-face {
+    font-family: "Gotham Pro Regular";
+    src: url("../fonts/Gotham_Pro_Regular.ttf");
+}
+@font-face {
+    font-family: "Gotham Pro Bold";
+    src: url("../fonts/Gotham_Pro_Bold.ttf");
+}
+@font-face {
+    font-family: "Gotham Pro Medium";
+    src: url("../fonts/Gotham_Pro_Medium.ttf");
+}
+
+#espring {
+    position: relative;
+    top: 15px;
+}
+
+.block_small_drop {
+    margin: 0px;
+    padding-bottom: 35px;
+}
+
+.small_drop_text2 {
+    line-height: 2px;
+    text-align: left;
+}
+
+.small_drop {
+    float: left;
+}
+
+.small_drop_picture {
+    float: left;
+    margin-right: 5px;
+}
+
+.small_drop_text {
+    float: left;
+    font-size: 11px;
+    font-family: "Gotham Pro Bold";
+    margin: 0px;
+    margin-right: 15px;
+}
+
+.price {
+    font-size: 14px;
+    font-family: "Gotham Pro Bold";
+    float: left;
+    vertical-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.catalog_text {
+    font-family: "Gotham Pro Regular";
+    font-size: 11px;
+    text-align: left;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.catalog_header {
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 13px;
+    margin-top: -25px;
+}
+
+.catalog_img {
+    width: 250px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.catalog1 {
+    width: 250px;
+    float: left;
+    margin-left: 100px;
+}
+
+.catalog2 {
+    width: 250px;
+    float: left;
+    margin-left: 70px;
+}
+
+.catalog3 {
+    width: 250px;
+    float: right;
+    margin-right: 100px;
+}
+
+figure {
+    margin: 0px;
+}
+
+.best {
+    margin: 0px;
+}
+
+figcaption {
+    margin-bottom: 55px;
+}
+
+#drops2 {
+    margin-top: 50px;
+}
+
+#otziv_buyer {
+    width: 170px;
+    font-family: "Gotham Pro Bold";
+    cursor: pointer;
+    border: 2px solid #25a8e0;
+    background-color: #ffffff;
+    color: #25a8e0;
+}
+
+#otziv_partner {
+    width: 170px;
+    font-family: "Gotham Pro Bold";
+    cursor: pointer;
+    border: 2px solid #25a8e0;
+    color: #ffffff;
+    background-color: #25a8e0;
+}
+
+#form_otziv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    border: 0px;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.kav {
+    width: 40px;
+    padding-right: 5px;
+    padding-left: 50px;
+    float: left;
+    font-size: 30px;
+    font-family: "Gotham Pro Bold";
+
+}
+
+#block6_1 {
+    margin-left: 30px;
+}
+
+#block6_2 {
+    float: left;
+    margin-left: 30px;
+}
+
+#data1 {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+#data2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    padding-bottom: 3px;
+    color: #25a8e0;
+    width: 200px;
+}
+
+.otziv1 {
+    padding-top: 5px;
+    width: 230px;
+    float: left;
+    font-size: 11px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.otziv2 {
+    width: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 65px;
+    padding-right: 18px;
+}
+
+.otziv3 {
+    width: 180px;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Gotham Pro Bold";
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+#filters {
+    width: 200px;
+    margin: 5px;
+    border: 2px solid #c9e8f6;
+    border-radius: 20px;
+    height: 35px;
+    background: none;
+    color: #c9e8f6;
+}
+
+.option1 {
+    color: white;
+    background: #25a8e0;
+}
+
+.block_submit {
+    float: right;
+    padding-right: 20px;
+}
+
+.form_submit { 
+    background-color: #be9f57;
+    color: #ffffff;
+    font-family: "Gotham Pro Bold";
+    font-size: 12px;
+    box-shadow: 1px 1px 1px #0a709c;
+    height: 35px;
+}
+
+.form_catalog { 
+    width: 120px;
+    background-color: #be9f57;
+    color: #ffffff;
+    font-family: "Gotham Pro Bold";
+    font-size: 12px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.form_catalog:hover {
+    background-color: #c5a760;
+    border: 1px solid #be9f57;
+}
+
+
+.form_text {
+    padding-left: 5px;
+    width: 160px;
+    margin: 5px;
+    background: none;
+    border: 2px solid #c9e8f6;
+    color: white;
+    height: 30px;
+}
+
+.form_text[name="username"] {
+    text-transform: capitalize;
+}
+
+input::-webkit-input-placeholder {
+    color: #c9e8f6;
+} 
+input::-moz-placeholder {
+    color: #c9e8f6;
+}
+
+#form_zakaz {
+    width: 160px;
+    margin: 5px;
+}
+
+.brand {
+    font-family: "Gotham Pro Regular";
+    font-size: 28px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+#picture {
+    float: right;
+    padding: 0;
+    padding-right: 100px;
+}
+
+.brand2 {
+    font-family: "Gotham Pro Regular";
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+body {
+    font-family: "Gotham Pro Medium";
+    background-color: #f6f5f3;
+    height: 3690px;
+}
+
+.drops {
+    text-align: center;
+    float: left;
+    width: 365px;
+}
+figcaption {
+    line-height: 5px;
+    font-family: "Gotham Pro Medium";
+    font-size: 12px;
+}
+
+td {
+    line-height: 3px;
+    width: 300px;
+    padding: 3px 3px 3px 3px;
+}
+
+#podval {
+    padding-top: 5px;
+}
+#p_1 {
+    padding-left: 70px;
+    padding-top: 19px;
+    width: 40px;
+    margin: 0px;
+}
+#p_2 {
+    padding-top: 24px;
+    width: 40px;
+}
+#p_3 {
+    width: 430px;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+#p_4 {
+    width: 40px;
+    padding-top: 19px;
+}
+#p_5 {
+    font-size: 12px;
+    width: 120px;
+    padding-top: 19px;
+}
+#p_6 {
+    width: 40px;
+    padding-top: 19px;
+}
+#p_7 {
+    font-size: 12px;
+    width: 50px;
+    padding-top: 19px;
+}
+#n1 {
+    width: 1100px;
+    background-color: white;
+    margin: -10px auto -10px auto;
+    -moz-box-shadow: 0 0 30px #777777;
+    -webkit-box-shadow: 0 0 30px #777777;
+    box-shadow: 0 0 30px #777777;
+}
+
+#top_block {
+    height: 600px;
+    background-image: url("../img/iceberg2.jpg");
+    padding: 0;
+    margin: 0;
+}
+
+#block22 {
+    background-color: white;
+    height: 540px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+.block2 {
+    background-color: white;
+    height: 600px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+.block2_1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.block2_3 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#block3 {
+    background-color: #25a8e0;
+    height: 600px;
+    text-align: center;
+    padding-top: 25px;
+    box-shadow: inset 0 0 5px #777777;
+}
+
+#block5 {
+    background-image: url("../img/fon_gori.jpg");
+    height: 200px;
+    text-align: center;
+    box-shadow: inset 0 0 5px #777777;
+    padding-top: 25px;
+}
+
+#block6 {
+    background-color: white;
+    height: 310px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#block7 {
+    background-color: #25a8e0;
+    height: 110px;
+    text-align: center;
+    box-shadow: inset 0 0 5px #777777;
+}
+#map {
+    height: 500px;
+    text-align: center;
+    -moz-box-shadow: inset 0 0 10px #777777;
+    -webkit-box-shadow: inset 0 0 10px #777777;
+    box-shadow: inset 0 0 10px #777777;
+    padding: 0;
+    margin: 0;
+}
+
+#forms {
+    padding-top: 30px;
+    margin: 0px;
+}
+
+.form_submit {
+    cursor: pointer;
+}
+#form_partner {
+    width: 170px;
+}
+#strelka {
+    font-size: 40px;
+    padding: 0px;
+    width: 75px;
+    padding-bottom: 8px
+}
+
+.form_submit:hover {
+    background-color: #c5a760;
+    border: 1px solid #be9f57;
+}
+.form_submit:active {
+    border-top: 3px solid #be9f57;
+}
+#business1 {
+    width: 640px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+#business2 {
+    text-align: center;
+    width: 160px;
+}
+#business3 {
+    width: 150px;
+}
+
+.footer {
+    background-image: #ffffff;
+    height: 100px;
+}
+
+#supply {
+    font-size: 16px;
+    font-family: "Gotham Pro Bold";
+    color: #ffffff;
+    padding-top: 30px;
+    margin: 0px;    
+}
+
+#name {
+    font-family: "Gotham Pro Bold";
+    font-size: 32px;
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 250px;
+}
+
+#slogan {
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 240px;
+}
+
+#name p {
+    line-height: 10px; /* межстрочный интервал */
+}
+
+.header_blue {
+    font-family: "Gotham Pro Bold";
+    font-size: 26px;
+    color: #25a8e0;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.header_white {
+    font-family: "Gotham Pro Bold";
+    font-size: 26px;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.header_mini {
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.construction {
+    font-size: 18px;
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 310px;
+}
+
+.paragraph {
+    font-size: 14px;
+    padding-left: 648px;
+    padding-right: 160px;
+    padding-top: 20px;
+    text-align: left;
+    font-family: "Gotham Pro Regular";
+    line-height: 18px;
+}
