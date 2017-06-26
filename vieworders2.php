@@ -15,7 +15,7 @@
   
     // Считывание всего файла.
     // Каждый заказ становится элементом массива
-    $orders = file ("$DOCUMENT_ROOT/water/orders/orders.txt");
+    $orders = file ("$DOCUMENT_ROOT/water/water/orders/orders.txt");
     // Подсчет количества заказов, хранящихся в массиве
     $number_of_orders = count($orders);
     if ($number_of_orders == 0) {
