@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link href="styles/site.css" rel="stylesheet" type="text/css" />
+        <link href="styles/media.css" rel="stylesheet" type="text/css" />
         <meta name="description" content="Система очистки воды, Оренбург, Россия"/>
         <title>eSpring - Чистая вода, чистая польза</title>
         <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>

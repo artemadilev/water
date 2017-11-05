@@ -1,0 +1,31 @@
+/* Адаптив */
+@media all and (max-device-width: 400px) {
+    #n1 {
+    width: 400px;
+    margin: -10px;
+    box-shadow: none;
+    -moz-box-shadow: 0px;
+    -webkit-box-shadow: 0px;
+    }
+    
+    .brand {
+        top: 0px;
+        left: 10px;
+    }
+
+    #name {
+        font-size: 20px;
+        top: 60px;
+        left: 10px;
+    }
+    
+    #slogan {
+        top: 52px;
+        left: 10px;
+    }
+    
+    #top_block {
+        background-image: url(../img/iceberg_ad.png);
+        background-repeat: no-repeat;
+    }
+}
