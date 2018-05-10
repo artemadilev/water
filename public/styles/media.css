@@ -1,6 +1,6 @@
 /* Адаптив */
 @media all and (max-device-width: 400px) {
-    #n1 {
+    html {
     width: 400px;
     margin: -10px;
     box-shadow: none;
